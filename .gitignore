@@ -1,4 +1,6 @@
 .git
+*.pyc
+doc/build
 .pytest_cache
 paragate.egg-info
 venv3
