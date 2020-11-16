@@ -1,0 +1,4 @@
+.git
+.pytest_cache
+paragate.egg-info
+venv3
