@@ -1,16 +1,25 @@
-.. paragate documentation master file, created by
-   sphinx-quickstart on Mon Nov 16 15:56:10 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. _contents:
 
-Welcome to paragate's documentation!
-====================================
+paragate documentation
+======================
+
+.. only:: html
+
+    :Release: |version|
+    :Date: |today|
+
+    
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-
+   overview
+   getting-started
+   tutorial/index
+   user-guide
+   developer/index
+   reference/index
+   examples/index
 
 Indices and tables
 ==================
@@ -18,3 +27,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+* :ref:`glossary`

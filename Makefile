@@ -95,6 +95,7 @@ install: clean ## install the package to the active Python's site-packages
 	${PY} setup.py install
 
 dev-install: clean ## install the package locally
+	pip install -e ../microapp
 	pip install -e .
 	#python setup.py develop
 	#python setup.py develop --user
